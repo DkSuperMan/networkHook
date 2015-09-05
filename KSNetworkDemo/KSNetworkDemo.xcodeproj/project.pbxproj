@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043BCA6D1B9AEC7A0096EEB7 /* HttPeek.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04BBA17B1B99E4320094F5D5 /* HttPeek.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		04BBA17E1B99E43B0094F5D5 /* HttPeek.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BBA17B1B99E4320094F5D5 /* HttPeek.dylib */; };
+		04BBA1801B99E4440094F5D5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BBA17F1B99E4440094F5D5 /* CFNetwork.framework */; };
+		213E2EE41718FCEB00C62471 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213E2EE31718FCEB00C62471 /* UIKit.framework */; };
+		213E2EE61718FCEB00C62471 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213E2EE51718FCEB00C62471 /* Foundation.framework */; };
+		213E2EE81718FCEB00C62471 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213E2EE71718FCEB00C62471 /* CoreGraphics.framework */; };
+		213E2EEE1718FCEB00C62471 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 213E2EEC1718FCEB00C62471 /* InfoPlist.strings */; };
+		213E2EF01718FCEB00C62471 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 213E2EEF1718FCEB00C62471 /* main.m */; };
+		213E2EF41718FCEB00C62471 /* KSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 213E2EF31718FCEB00C62471 /* KSAppDelegate.m */; };
+		213E2EF61718FCEB00C62471 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 213E2EF51718FCEB00C62471 /* Default.png */; };
+		213E2EF81718FCEB00C62471 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 213E2EF71718FCEB00C62471 /* Default@2x.png */; };
+		213E2EFA1718FCEB00C62471 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 213E2EF91718FCEB00C62471 /* Default-568h@2x.png */; };
+		213E2EFD1718FCEB00C62471 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213E2EFB1718FCEB00C62471 /* MainStoryboard.storyboard */; };
+		213E2F001718FCEB00C62471 /* KSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 213E2EFF1718FCEB00C62471 /* KSViewController.m */; };
+		213E2F0B1719042200C62471 /* KSSocketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 213E2F091719042200C62471 /* KSSocketViewController.m */; };
+		213E2F0C1719042200C62471 /* KSSocketViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 213E2F0A1719042200C62471 /* KSSocketViewController.xib */; };
+		21A2522D171B791500882576 /* NSStream+StreamsToHost.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A2522C171B791500882576 /* NSStream+StreamsToHost.m */; };
+		21A25231171B79D800882576 /* KSNSStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A2522F171B79D800882576 /* KSNSStreamViewController.m */; };
+		21A25232171B79D800882576 /* KSNSStreamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21A25230171B79D800882576 /* KSNSStreamViewController.xib */; };
+		21F36B5D171999FC006B9932 /* KSCFNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F36B5B171999FB006B9932 /* KSCFNetworkViewController.m */; };
+		21F36B5E171999FC006B9932 /* KSCFNetworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21F36B5C171999FC006B9932 /* KSCFNetworkViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04BBA17A1B99E4320094F5D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BBA1761B99E4320094F5D5 /* HttPeek.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 24CADA8D1510492B00B22162;
+			remoteInfo = HttPeek;
+		};
+		04BBA17C1B99E4360094F5D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BBA1761B99E4320094F5D5 /* HttPeek.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 24CADA8C1510492B00B22162;
+			remoteInfo = HttPeek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		043BCA6C1B9AEC720096EEB7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				043BCA6D1B9AEC7A0096EEB7 /* HttPeek.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04BBA1761B99E4320094F5D5 /* HttPeek.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HttPeek.xcodeproj; path = "../HttPeek-master/HttPeek.xcodeproj"; sourceTree = "<group>"; };
+		04BBA17F1B99E4440094F5D5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		213E2EE01718FCEB00C62471 /* KSNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		213E2EE31718FCEB00C62471 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		213E2EE51718FCEB00C62471 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		213E2EE71718FCEB00C62471 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		213E2EEB1718FCEB00C62471 /* KSNetworkDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KSNetworkDemo-Info.plist"; sourceTree = "<group>"; };
+		213E2EED1718FCEB00C62471 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		213E2EEF1718FCEB00C62471 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		213E2EF11718FCEB00C62471 /* KSNetworkDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KSNetworkDemo-Prefix.pch"; sourceTree = "<group>"; };
+		213E2EF21718FCEB00C62471 /* KSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSAppDelegate.h; sourceTree = "<group>"; };
+		213E2EF31718FCEB00C62471 /* KSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSAppDelegate.m; sourceTree = "<group>"; };
+		213E2EF51718FCEB00C62471 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		213E2EF71718FCEB00C62471 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		213E2EF91718FCEB00C62471 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		213E2EFC1718FCEB00C62471 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		213E2EFE1718FCEB00C62471 /* KSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSViewController.h; sourceTree = "<group>"; };
+		213E2EFF1718FCEB00C62471 /* KSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSViewController.m; sourceTree = "<group>"; };
+		213E2F081719042200C62471 /* KSSocketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSSocketViewController.h; sourceTree = "<group>"; };
+		213E2F091719042200C62471 /* KSSocketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSSocketViewController.m; sourceTree = "<group>"; };
+		213E2F0A1719042200C62471 /* KSSocketViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSSocketViewController.xib; sourceTree = "<group>"; };
+		21A2522B171B791500882576 /* NSStream+StreamsToHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStream+StreamsToHost.h"; sourceTree = "<group>"; };
+		21A2522C171B791500882576 /* NSStream+StreamsToHost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+StreamsToHost.m"; sourceTree = "<group>"; };
+		21A2522E171B79D800882576 /* KSNSStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSNSStreamViewController.h; sourceTree = "<group>"; };
+		21A2522F171B79D800882576 /* KSNSStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSNSStreamViewController.m; sourceTree = "<group>"; };
+		21A25230171B79D800882576 /* KSNSStreamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSNSStreamViewController.xib; sourceTree = "<group>"; };
+		21F36B5A171999FB006B9932 /* KSCFNetworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCFNetworkViewController.h; sourceTree = "<group>"; };
+		21F36B5B171999FB006B9932 /* KSCFNetworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCFNetworkViewController.m; sourceTree = "<group>"; };
+		21F36B5C171999FC006B9932 /* KSCFNetworkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSCFNetworkViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		213E2EDD1718FCEB00C62471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BBA1801B99E4440094F5D5 /* CFNetwork.framework in Frameworks */,
+				213E2EE41718FCEB00C62471 /* UIKit.framework in Frameworks */,
+				04BBA17E1B99E43B0094F5D5 /* HttPeek.dylib in Frameworks */,
+				213E2EE61718FCEB00C62471 /* Foundation.framework in Frameworks */,
+				213E2EE81718FCEB00C62471 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BBA1771B99E4320094F5D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BBA17B1B99E4320094F5D5 /* HttPeek.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		213E2ED71718FCEB00C62471 = {
+			isa = PBXGroup;
+			children = (
+				04BBA1761B99E4320094F5D5 /* HttPeek.xcodeproj */,
+				213E2EE91718FCEB00C62471 /* KSNetworkDemo */,
+				213E2EE21718FCEB00C62471 /* Frameworks */,
+				213E2EE11718FCEB00C62471 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		213E2EE11718FCEB00C62471 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				213E2EE01718FCEB00C62471 /* KSNetworkDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		213E2EE21718FCEB00C62471 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04BBA17F1B99E4440094F5D5 /* CFNetwork.framework */,
+				213E2EE31718FCEB00C62471 /* UIKit.framework */,
+				213E2EE51718FCEB00C62471 /* Foundation.framework */,
+				213E2EE71718FCEB00C62471 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		213E2EE91718FCEB00C62471 /* KSNetworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				213E2EF21718FCEB00C62471 /* KSAppDelegate.h */,
+				213E2EF31718FCEB00C62471 /* KSAppDelegate.m */,
+				21A2522B171B791500882576 /* NSStream+StreamsToHost.h */,
+				21A2522C171B791500882576 /* NSStream+StreamsToHost.m */,
+				213E2F071718FD1800C62471 /* Controllers */,
+				213E2F061718FD0100C62471 /* Resources */,
+				213E2EEA1718FCEB00C62471 /* Supporting Files */,
+			);
+			path = KSNetworkDemo;
+			sourceTree = "<group>";
+		};
+		213E2EEA1718FCEB00C62471 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				213E2EEB1718FCEB00C62471 /* KSNetworkDemo-Info.plist */,
+				213E2EEC1718FCEB00C62471 /* InfoPlist.strings */,
+				213E2EEF1718FCEB00C62471 /* main.m */,
+				213E2EF11718FCEB00C62471 /* KSNetworkDemo-Prefix.pch */,
+				213E2EF51718FCEB00C62471 /* Default.png */,
+				213E2EF71718FCEB00C62471 /* Default@2x.png */,
+				213E2EF91718FCEB00C62471 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		213E2F061718FD0100C62471 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				21A25230171B79D800882576 /* KSNSStreamViewController.xib */,
+				21F36B5C171999FC006B9932 /* KSCFNetworkViewController.xib */,
+				213E2F0A1719042200C62471 /* KSSocketViewController.xib */,
+				213E2EFB1718FCEB00C62471 /* MainStoryboard.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		213E2F071718FD1800C62471 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				213E2EFE1718FCEB00C62471 /* KSViewController.h */,
+				213E2EFF1718FCEB00C62471 /* KSViewController.m */,
+				213E2F081719042200C62471 /* KSSocketViewController.h */,
+				213E2F091719042200C62471 /* KSSocketViewController.m */,
+				21F36B5A171999FB006B9932 /* KSCFNetworkViewController.h */,
+				21F36B5B171999FB006B9932 /* KSCFNetworkViewController.m */,
+				21A2522E171B79D800882576 /* KSNSStreamViewController.h */,
+				21A2522F171B79D800882576 /* KSNSStreamViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		213E2EDF1718FCEB00C62471 /* KSNetworkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 213E2F031718FCEB00C62471 /* Build configuration list for PBXNativeTarget "KSNetworkDemo" */;
+			buildPhases = (
+				213E2EDC1718FCEB00C62471 /* Sources */,
+				213E2EDD1718FCEB00C62471 /* Frameworks */,
+				213E2EDE1718FCEB00C62471 /* Resources */,
+				043BCA6C1B9AEC720096EEB7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BBA17D1B99E4360094F5D5 /* PBXTargetDependency */,
+			);
+			name = KSNetworkDemo;
+			productName = KSNetworkDemo;
+			productReference = 213E2EE01718FCEB00C62471 /* KSNetworkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		213E2ED81718FCEB00C62471 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "kesalin@gmail.com";
+			};
+			buildConfigurationList = 213E2EDB1718FCEB00C62471 /* Build configuration list for PBXProject "KSNetworkDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 213E2ED71718FCEB00C62471;
+			productRefGroup = 213E2EE11718FCEB00C62471 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 04BBA1771B99E4320094F5D5 /* Products */;
+					ProjectRef = 04BBA1761B99E4320094F5D5 /* HttPeek.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				213E2EDF1718FCEB00C62471 /* KSNetworkDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		04BBA17B1B99E4320094F5D5 /* HttPeek.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = HttPeek.dylib;
+			remoteRef = 04BBA17A1B99E4320094F5D5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		213E2EDE1718FCEB00C62471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213E2EEE1718FCEB00C62471 /* InfoPlist.strings in Resources */,
+				213E2EF61718FCEB00C62471 /* Default.png in Resources */,
+				213E2EF81718FCEB00C62471 /* Default@2x.png in Resources */,
+				213E2EFA1718FCEB00C62471 /* Default-568h@2x.png in Resources */,
+				213E2EFD1718FCEB00C62471 /* MainStoryboard.storyboard in Resources */,
+				213E2F0C1719042200C62471 /* KSSocketViewController.xib in Resources */,
+				21F36B5E171999FC006B9932 /* KSCFNetworkViewController.xib in Resources */,
+				21A25232171B79D800882576 /* KSNSStreamViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		213E2EDC1718FCEB00C62471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213E2EF01718FCEB00C62471 /* main.m in Sources */,
+				213E2EF41718FCEB00C62471 /* KSAppDelegate.m in Sources */,
+				213E2F001718FCEB00C62471 /* KSViewController.m in Sources */,
+				213E2F0B1719042200C62471 /* KSSocketViewController.m in Sources */,
+				21F36B5D171999FC006B9932 /* KSCFNetworkViewController.m in Sources */,
+				21A2522D171B791500882576 /* NSStream+StreamsToHost.m in Sources */,
+				21A25231171B79D800882576 /* KSNSStreamViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04BBA17D1B99E4360094F5D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HttPeek;
+			targetProxy = 04BBA17C1B99E4360094F5D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		213E2EEC1718FCEB00C62471 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				213E2EED1718FCEB00C62471 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		213E2EFB1718FCEB00C62471 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				213E2EFC1718FCEB00C62471 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		213E2F011718FCEB00C62471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		213E2F021718FCEB00C62471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		213E2F041718FCEB00C62471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iOS Development: Liu Cao (EX33S4LRW7)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSNetworkDemo/KSNetworkDemo-Prefix.pch";
+				INFOPLIST_FILE = "KSNetworkDemo/KSNetworkDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f8858e95-d889-4ea0-90b4-a1d639ef35e8";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		213E2F051718FCEB00C62471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iOS Development: Liu Cao (EX33S4LRW7)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSNetworkDemo/KSNetworkDemo-Prefix.pch";
+				INFOPLIST_FILE = "KSNetworkDemo/KSNetworkDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f8858e95-d889-4ea0-90b4-a1d639ef35e8";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		213E2EDB1718FCEB00C62471 /* Build configuration list for PBXProject "KSNetworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				213E2F011718FCEB00C62471 /* Debug */,
+				213E2F021718FCEB00C62471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		213E2F031718FCEB00C62471 /* Build configuration list for PBXNativeTarget "KSNetworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				213E2F041718FCEB00C62471 /* Debug */,
+				213E2F051718FCEB00C62471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 213E2ED81718FCEB00C62471 /* Project object */;
+}

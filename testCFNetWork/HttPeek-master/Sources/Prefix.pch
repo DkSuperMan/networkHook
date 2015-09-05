@@ -1,0 +1,31 @@
+
+#define TEST
+
+//#define KSSLPEEK_HOOK
+#define KWEBVIEWPEEK_HOOK
+//#define KAPPLICATIONPEEK_HOOK
+//#define KCONNECTIONPEEK_HOOK
+//#define KNOTIFICATIONPEEK_HOOK
+#define KREADSTREAMPEEK_HOOK
+
+#import "Macro.h"
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import "NSUtil.h"
+#endif
+
+#import "HookUtil.h"
+
+#if __cplusplus
+extern "C"
+#endif
+void LogData(const void *data, size_t dataLength, void *returnAddress);
+#define _LogData(data, dataLength) LogData(data, dataLength, __builtin_return_address(0))
+
+//
+#if __cplusplus
+extern "C"
+#endif
+void LogRequest(NSURLRequest *request, void *returnAddress);
+#define _LogRequest(request) LogRequest(request, __builtin_return_address(0))

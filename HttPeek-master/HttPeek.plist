@@ -1,0 +1,7 @@
+{
+	Filter = {
+		Bundles = (
+			"com.515game.zhajinhua",
+		);
+	};
+}
